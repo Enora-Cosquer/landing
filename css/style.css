@@ -1,0 +1,131 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap" rel="stylesheet");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0px;
+  text-align: justify;
+}
+h1, h2, h3, h4,h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 40px;
+  margin: 0px auto;
+  color: white;
+}
+h3 {
+  font-size: 40px;
+  margin: 0px auto;
+  color: #444444;
+}
+h4 {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 5px 5px;
+  margin: 0px;
+}
+h5 {
+  font-size: 14px;
+  text-align: left;
+  text-decoration: underline;
+  padding: 0px 20px;
+  margin: 5px 0px;
+  color: #444444;
+}
+p{
+  font-size: 20px;
+  padding: 0px 15px;
+  margin: 10px 0px;
+  text-align: justify;
+  color: #444444;
+  opacity: 0.7;
+}
+a {
+  text-decoration: none;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  margin: 0px auto;
+}
+.header-flex p {
+  color: white;
+  opacity: 1;
+}
+.card-red{
+  margin: 10px 0px;
+  background: linear-gradient(-225deg, rgba(270,30,30,0.8), rgba(250,100,0,0.4));
+  padding: 5px 10px;
+  border-radius: 18px;
+  box-shadow: 0px 40px 30px -20px rgba(270,30,30,.3);
+  color: white;
+}
+.image-squareflex{
+  display: flex;
+  height: 400px;
+  width: 300px;
+  padding: 0px 10px;
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+i {
+  color: white;
+  font-size: 35px;
+  padding: 0px 10px;
+}
+.avatar{
+  display: flex;
+  padding: 0px 30px;
+  text-align: center;
+  margin-left: 220px;
+  margin-top: 13px;
+}
+.avatar p {
+  margin:5px 60px;
+}
+.FollowUs{
+  text-align: center;
+  background-color: #F7F7F7;
+  padding: 20px;
+  width: 100%;
+}
+.button-endpage{
+  text-align: left;
+}
+.list{
+  list-style: none;
+  padding: 5px 0px;
+  margin: 0px 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 40px;
+}
+ul {
+  margin: 0px 5px;
+}
+#icone-media{
+  color: rgb(250,100,0);
+  font-size: 35px;
+  padding: 0px 10px;
+}
+#icone-media:hover {
+  color: rgb(270,30,30);
+  font-size: 35px;
+  padding: 0px 10px;
+}
